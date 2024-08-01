@@ -67,7 +67,7 @@ func (tidy *tidyFeature) flags(ctx ModuleContext, flags Flags) Flags {
 		return flags
 	}
 
-	flags.Tidy = true
+	flags.Tidy = false
 
 	esc := proptools.NinjaAndShellEscape
 
